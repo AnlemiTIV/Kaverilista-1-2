@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="CSS/tyylit2.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaverilista 2</title>
+</head>
+<body>
+    <div>
+        
+        <a href ="index.html" style="padding-right: 4px; padding-left: 30px">Versio 1</a>
+        <a href="#" style="padding-left: 4px">Versio 2</a>
+        
+        <h1>Kaverilista Versio 2</h1>
+    </div>
+    
+    <div>        
+        <form id = "tama" name = "versio2Form">
+            
+            <label for ="nimi01" id = "labeli">Syötä nimi:</label><br>
+            <input type="text" id="nimi01" name="nimi01">
+            <input type="submit" value="Lisää Kaveri" onclick="lisaaListaan2(event)">
+            <input type="button" value ="Poista Kaveri" onclick="poistaListasta()"> 
+            <input type="button"  value="Järjestä" onclick="jarjestykseen()">
+        </form>
+    </div>
+
+    <div>
+        <ol id="kaverit2"></ol>
+    </div>
+    
+    <script src="JS/main2.js"></script>    
+</body>
+</html>

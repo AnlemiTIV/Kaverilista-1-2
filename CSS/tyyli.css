@@ -1,0 +1,46 @@
+
+/*Tyylit tehtävälle " #410 Kaverilista", versio 1*/
+
+h1 {
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 43px;
+    color: rgb(45, 36, 59);
+    text-decoration: underline 2px;
+    margin: 5px 0px 0px 10px;
+    padding: 10px 0px 5px 20px;
+}
+
+#kaverit1 {
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+    color: rgb(45, 36, 59);
+    margin: 20px 0px 15px 50px;
+    padding: 0px 0px 0px 0px;
+
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: rgb(167, 204, 167);
+    min-height: 100%;
+}
+
+p {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 5px 0px 0px 10px;
+    padding: 10px 0px 0px 20px;
+}
+
+.painike1 {
+    height: 30px;
+    width: 50px;
+    margin: 5px 0px 0px 30px;
+}
